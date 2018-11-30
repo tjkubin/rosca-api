@@ -12,15 +12,15 @@ Group of all gps related resources.
 
 ### Get gps serial port status [GET]
 
-+ Response 200 (application/json)
++ Response 200 (application/json; charset=utf-8)
 
         {
           "payload" : {
              "status": "gps:off",
              "isPortOpen": false,
              "ggs": {
-               "status": '',
-               "messages": '',
+               "status": "",
+               "messages": "",
              }
            }
         }
